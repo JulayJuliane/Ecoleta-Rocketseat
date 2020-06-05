@@ -1,29 +1,34 @@
-// coments
+// COMENTS
 
 // documents.write(Hello)
 
-// variaveis, tipos de dados
+
+
+// VARIAVEIS  E TIPOS DE DADOS 
 // let myvar = "He"
 // const myconst = "He"
 // document.write (myconst + myvar)
 
 
-// string
+// STRING
 // "Isso é uma string"
 // 'Isso também é uma string'
 // `Isso é uma string também`
 
-// number
+
+// CONSTANTES COM NUMEROS
 // const n1 = 1
 // const n2 = 12
 // document.write (n1 + n2)
 
-// boolean - true ou false
+
+// BOOLEAN - true ou false
 // const bTrue = true
 // const bFalse = false
 // document.write(bFalse)
 
-// objeto possuem propriedades e funcionalidade
+
+// OBJETO possuem propriedades e funcionalidade
 // const pessoa = {
 //    altura: "1,80",
 //    idade: 24,
@@ -35,14 +40,14 @@
 // document.correr ()
 
 
-// Array - Vetores = coleção de algo
+// ARRAY - VETORES = coleção de algo
 // [....]
 // const colecaoDeBolinhas = ["blue", "green", 1, {name:"My Nanme"}]
 // document.write(colecaoDeBolinhas[0].name)
 // -> vai escrever na tela blue e My Name
 
 
-// Funções e funcionalidades 
+// FUNÇÕES e funcionalidades 
 // function sayMyName (name) {
 //    documnet.write(name)
 // }
@@ -52,7 +57,7 @@
 // sayMyName("Kyam")
 
 
-// condicionais
+// CONDICIONAIS
 //const notaFinal = 4
 
 //if ( notaFinal < 5 ) {
@@ -61,7 +66,9 @@
 //  document.write ("Aprovado")
 //} 
 
-// lopp repetições
+
+
+// LOOP = repetições
 // for ( i = 0; i <10; i++) {
 //   document.write(`<p>${i} </p>`)
 // }
