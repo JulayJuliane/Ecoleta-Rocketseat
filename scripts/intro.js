@@ -3,7 +3,6 @@
 // documents.write(Hello)
 
 
-
 // VARIAVEIS  E TIPOS DE DADOS 
 // let myvar = "He"
 // const myconst = "He"
