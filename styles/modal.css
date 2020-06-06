@@ -1,8 +1,8 @@
 #modal {
-    background-color: #0e0a14;
+    background-color: #0E0A14ef;
    
-    height: 100vh;
-    width: 100vh;
+    height: 100vh; 
+    width: 185vh;
 
     position: fixed;
     top: 0;
@@ -12,6 +12,10 @@
     align-items: center;
 
     transition: 400ms;
+}
+
+#modal.hide {
+    display: none;
 }
 
 #modal .content {
@@ -24,6 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 48px;
 }
 
 #modal .header a {
@@ -60,9 +66,9 @@
 #modal form input {
     flex: 1;
 
-    background-color: #f0f0f5;
+    background-color: var(--second-color);
 
-    border-radius: 8px;
+    border-radius: 8px 0 0 8px;
     border: 0;
 
     padding: 16px 24px;
@@ -74,4 +80,13 @@
 #modal form button {
     width: 72px;
     height: 72px;
+
+    background-color: var(--primary-color);
+
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+#modal form button:hover {
+    background-color: #2fb85e;
 }

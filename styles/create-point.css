@@ -81,7 +81,7 @@ form .field-group {
 
 form input,
 form select {
-    background-color: #f0f0f5;
+    background-color: var(--second-color);
 
     border: 0;
     padding: 16px 24px;
@@ -170,7 +170,7 @@ form button:hover {
 
 .items-grid li.selected {
     background: #e1faec;
-    border:2px solid #34cb79;
+    border:2px solid var(--primary-color);
 }
 
 .items-grid li img,
