@@ -24,7 +24,7 @@
 
 #page-create-point a span {
     margin-right: 16px;
-    background-image: url('../assets/arrow-left.svg');
+    background-image: url('/assets/arrow-left.svg');
 
     display: flex;
 
@@ -60,10 +60,21 @@ form fieldset {
 form legend {
     margin-bottom: 40px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
 }
 
 form legend h2 {
     font-size: 24px;
+}
+
+form legend span {
+    font-size: 14px;
+    color: var(--title-color);
 }
 
 form .field {
@@ -122,6 +133,7 @@ form button {
     border: 0;
 
     margin-top: 40px;
+    margin-left: 30%;
     transition: background-color 400ms;
 }
 

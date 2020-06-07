@@ -28,8 +28,32 @@
         height: 200px;
     }
 
-    
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
 
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+    
+    #page-header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #modal {
+        width: 100%;
+        max-width: 1100px;
+        /*alinhamento de caixa pelo lado de fora da caixa*/
+        margin: 0 auto;
+    }
+    
+    #modal .content {
+        align-items: center;
+    }
+    
 }
 
 @media(min-width:1700px) {
