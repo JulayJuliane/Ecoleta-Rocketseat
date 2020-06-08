@@ -18,9 +18,11 @@
   "homepage": "https://github.com/JulayJuliane/Ecoleta-Rocketseat#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.1"
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "description": "Aplicação com a função de cadastro de pontos de coleta de residuos e indentificação dos pontos existentes."
 }
